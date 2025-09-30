@@ -1,0 +1,5 @@
+{
+  "name": "Delhi Metro Route Finder",
+  "description": "An AI-powered application to find the shortest route between two Delhi Metro stations, providing a clear path with interchanges and station count.",
+  "requestFramePermissions": []
+}
