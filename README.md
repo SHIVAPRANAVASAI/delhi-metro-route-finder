@@ -1,19 +1,46 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
-
 # Delhi Metro Route Finder
 
-This contains everything you need to run your app locally.
+A user-friendly web application to help you find the best route between any two stations on the Delhi Metro network. This app provides an interactive map, detailed route information, and station details to make your commute easier.
 
+## Features
 
-## Run Locally
+*   **Interactive Metro Map:** Visualize the entire Delhi Metro network.
+*   **Route Planning:** Find the shortest route, including interchanges and total travel time.
+*   **Station Information:** Get details about any station, such as nearby points of interest.
+*   **Natural Language Input:** Simply type your start and end stations to find a route.
 
-**Prerequisites:**  Node.js
+## Tech Stack
 
+*   **Frontend:** React, TypeScript, Vite
+*   **AI Service:** Google Gemini API
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Getting Started
+
+### Prerequisites
+
+*   Node.js
+*   A Gemini API Key
+
+### Installation & Setup
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/SHIVAPRANAVASAI/delhi-metro-route-finder.git](https://github.com/SHIVAPRANAVASAI/delhi-metro-route-finder.git)
+    cd delhi-metro-route-finder
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+3.  **Set up your environment variables:**
+    Create a `.env.local` file in the root of the project and add your Gemini API key:
+    ```
+    GEMINI_API_KEY=YOUR_API_KEY
+    ```
+
+4.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
